@@ -9,7 +9,7 @@ h1{
 .peter{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -42,4 +42,37 @@ section{
 }
 .extra-half-width{
     width: 90%;
+}
+.experince-item{
+    box-shadow: 5px 7px 40px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 3%;
+    border-radius: 7px;
+}
+.experince-item h2{
+    font-size: 37px;
+}
+.experince-item h3{
+    color: orange;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+#experience-order1{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#experience-order2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: dimgray;
 }
